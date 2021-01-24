@@ -9,8 +9,8 @@ const newSpan=document.createElement('span');
 const newButton=document.createElement('button');
 newLi.appendChild(newSpan);
 newLi.appendChild(newButton);
-newSpan.textContent=value;
-newButton.textContent='Delete';
+newSpan.innerText=value;
+newButton.innerText='Delete';
 ul.appendChild(newLi);
 newButton.onclick=function(){
     newLi.remove();
